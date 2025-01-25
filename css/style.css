@@ -4,8 +4,36 @@ body {
     height: 100vh;
     display: flex;
     font-family: 'Markazi', 'Courier New', Courier, monospace;
-    background-image: linear-gradient(to bottom right, #95d6ea , #7bc7dd , #62a1c7 , #528ab4 );
+    background-image: linear-gradient(to bottom right , #7bc7dd , #62a1c7 , #528ab4 );
     align-items: center;
     justify-content: center;
 }
 
+.weatherApp {
+    margin: 20px;
+}
+
+.city {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: 'Markazi';
+    font-size: x-large;
+    border: none;
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Markazi';
+    font-weight: 900;
+    background-color: #95d6ea;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #95d6eaa2;
+}
