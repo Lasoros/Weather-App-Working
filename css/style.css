@@ -7,6 +7,7 @@ body {
     background-image: linear-gradient(to bottom right , #7bc7dd , #62a1c7 , #528ab4 );
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .weatherApp {
@@ -36,4 +37,15 @@ button{
 
 button:hover {
     background-color: #95d6eaa2;
+}
+
+.weather-wrapper {
+    background: linear-gradient(to bottom right,  #74feff, #9cfeff , #bbffff , #d3ffff , #eeffff );
+    margin-top: 50px;
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px #95d6ea;
+    align-items: center;
 }
