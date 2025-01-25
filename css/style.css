@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    font-family: 'Markazi', 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom right, #95d6ea , #7bc7dd , #62a1c7 , #528ab4 );
+    align-items: center;
+    justify-content: center;
+}
+
